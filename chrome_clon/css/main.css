@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Estilos específicos */
+
+/* Header styles */
+header {
+  width: 100%;
+  height: 6rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header nav .nav-right-section {
+  width: 25rem;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.75rem 0;
+  margin: 0 0.5rem;
+}
+
+nav .nav-right-section a {
+  color: #000000;
+}
+
+nav .nav-right-section .menu-icon {
+  background-image: url("https://static.thenounproject.com/png/756729-200.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+nav .nav-right-section img {
+  border-radius: 50%;
+}
+
+/* Main styles */
+main {
+  width: 100%;
+  margin-top: 15rem;
+  text-align: center;
+}
+
+main .section-google-logo {
+  width: 27.2rem;
+  height: 9.2rem;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+}
+
+main .section-google-logo img {
+  width: 100%;
+}
+
+main .section-input {
+  width: 52rem;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+}
+
+main .section-input .main-input-container {
+  width: 100%;
+  border-radius: 10rem;
+  border: solid 1px #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+main .section-input .main-input-container input {
+  width: 45rem;
+  height: 4rem;
+  border: none;
+  outline: none;
+  padding: 0 2rem;
+}
+
+main .section-input .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+main .section-input .search-icon {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+main .section-input .micro-icon {
+  background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+main .section-buttons {
+  width: 52rem;
+  margin: 0 auto;
+}
+
+main .section-buttons div {
+  display: inline-block;
+}
+
+main .section-buttons button {
+  height: 3.6rem;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 1.4rem;
+  color: #5f6368;
+  border-radius: 0.5rem;
+  padding: 0 1.5rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+main .section-buttons button:hover {
+  border: solid 1px #c6c6c6;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222;
+  background-color: #f8f8f8;
+}
+
+/* Footer styles */
+footer {
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  background-color: #f2f2f2;
+  border-top: solid 1px #e4e4e4;
+}
+
+footer ul {
+  margin: 1rem;
+  list-style: none;
+  display: flex;
+}
+
+footer .footer-left-section {
+  justify-self: left;
+}
+
+footer .footer-right-section {
+  justify-self: right;
+}
+
+footer ul li a {
+  margin: 1rem;
+  color: #5f6368;
+}
